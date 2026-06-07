@@ -1,0 +1,68 @@
+<svg width="920" height="720" viewBox="0 0 920 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Backend to AI Product Engineering roadmap</title>
+  <desc id="desc">A visual path from foundations to backend, product, AI product, and AI systems.</desc>
+  <rect width="920" height="720" rx="8" fill="#F7FAF7"/>
+  <path d="M102 122C214 72 314 88 414 136C514 184 604 170 746 104" stroke="#DDE8E2" stroke-width="18" stroke-linecap="round"/>
+  <path d="M130 570C256 492 360 520 464 574C568 628 682 598 790 512" stroke="#DDE8E2" stroke-width="18" stroke-linecap="round"/>
+  <g opacity="0.18">
+    <circle cx="770" cy="142" r="72" fill="#C7821B"/>
+    <circle cx="170" cy="574" r="82" fill="#356FA8"/>
+    <circle cx="482" cy="350" r="132" fill="#147D73"/>
+  </g>
+  <g>
+    <rect x="86" y="92" width="226" height="108" rx="8" fill="white" stroke="#D9E1DC" stroke-width="2"/>
+    <rect x="106" y="112" width="48" height="48" rx="8" fill="#147D73"/>
+    <path d="M119 137H141M130 126V148" stroke="white" stroke-width="5" stroke-linecap="round"/>
+    <text x="170" y="130" fill="#18221F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Foundation</text>
+    <text x="170" y="158" fill="#62716D" font-family="Segoe UI, Arial, sans-serif" font-size="15">Python, DSA, Git, SQL</text>
+  </g>
+  <g>
+    <rect x="348" y="176" width="226" height="108" rx="8" fill="white" stroke="#D9E1DC" stroke-width="2"/>
+    <rect x="368" y="196" width="48" height="48" rx="8" fill="#356FA8"/>
+    <path d="M382 211H402V231H382V211Z" stroke="white" stroke-width="4"/>
+    <path d="M386 219H398" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <text x="432" y="214" fill="#18221F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Backend</text>
+    <text x="432" y="242" fill="#62716D" font-family="Segoe UI, Arial, sans-serif" font-size="15">APIs, DBs, auth, tests</text>
+  </g>
+  <g>
+    <rect x="612" y="92" width="226" height="108" rx="8" fill="white" stroke="#D9E1DC" stroke-width="2"/>
+    <rect x="632" y="112" width="48" height="48" rx="8" fill="#C7821B"/>
+    <path d="M645 148L656 124L667 148M650 140H662" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="696" y="130" fill="#18221F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Cloud</text>
+    <text x="696" y="158" fill="#62716D" font-family="Segoe UI, Arial, sans-serif" font-size="15">Docker, AWS, deploy</text>
+  </g>
+  <g>
+    <rect x="94" y="338" width="226" height="108" rx="8" fill="white" stroke="#D9E1DC" stroke-width="2"/>
+    <rect x="114" y="358" width="48" height="48" rx="8" fill="#4F8B45"/>
+    <path d="M128 374H148M128 390H148M128 382H142" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <text x="178" y="376" fill="#18221F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Frontend</text>
+    <text x="178" y="404" fill="#62716D" font-family="Segoe UI, Arial, sans-serif" font-size="15">React product UI</text>
+  </g>
+  <g>
+    <rect x="348" y="360" width="226" height="108" rx="8" fill="white" stroke="#D9E1DC" stroke-width="2"/>
+    <rect x="368" y="380" width="48" height="48" rx="8" fill="#B94D5F"/>
+    <path d="M381 412L392 393L403 412H381Z" stroke="white" stroke-width="4" stroke-linejoin="round"/>
+    <text x="432" y="398" fill="#18221F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Product</text>
+    <text x="432" y="426" fill="#62716D" font-family="Segoe UI, Arial, sans-serif" font-size="15">MVP, metrics, iteration</text>
+  </g>
+  <g>
+    <rect x="604" y="338" width="226" height="108" rx="8" fill="white" stroke="#D9E1DC" stroke-width="2"/>
+    <rect x="624" y="358" width="48" height="48" rx="8" fill="#6D62A8"/>
+    <path d="M648 372V392M638 382H658M641 375L655 389M655 375L641 389" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <text x="688" y="376" fill="#18221F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">AI Product</text>
+    <text x="688" y="404" fill="#62716D" font-family="Segoe UI, Arial, sans-serif" font-size="15">LLM, vector DB, RAG</text>
+  </g>
+  <g>
+    <rect x="348" y="544" width="226" height="108" rx="8" fill="white" stroke="#D9E1DC" stroke-width="2"/>
+    <rect x="368" y="564" width="48" height="48" rx="8" fill="#2F6B5F"/>
+    <path d="M383 598C393 578 404 578 404 598" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <path d="M386 594H401" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <text x="432" y="582" fill="#18221F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">AI Systems</text>
+    <text x="432" y="610" fill="#62716D" font-family="Segoe UI, Arial, sans-serif" font-size="15">Agents, evals, scale</text>
+  </g>
+  <path d="M315 146C352 154 367 166 386 192" stroke="#9FB1AA" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 10"/>
+  <path d="M576 222C620 210 642 190 662 164" stroke="#9FB1AA" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 10"/>
+  <path d="M208 337C246 290 300 264 346 248" stroke="#9FB1AA" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 10"/>
+  <path d="M574 405H604" stroke="#9FB1AA" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 10"/>
+  <path d="M462 470V542" stroke="#9FB1AA" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 10"/>
+</svg>

@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>2027 Backend to AI Product Engineering Curriculum</title>
+    <meta
+      name="description"
+      content="A visual curriculum dashboard for the 2027 Backend to AI Product Engineering roadmap."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="siteSidebar" aria-label="Curriculum navigation">
+        <div class="sidebar-header">
+          <a class="brand" href="#overview" aria-label="Go to overview">
+            <span class="brand-mark" aria-hidden="true">27</span>
+            <span class="brand-text">
+              <strong>Career OS</strong>
+              <small>Backend to AI Product</small>
+            </span>
+          </a>
+          <button
+            class="sidebar-toggle"
+            id="sidebarToggle"
+            type="button"
+            aria-controls="siteSidebar"
+            aria-expanded="true"
+            aria-label="Close sidebar"
+            title="Open or close sidebar"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <nav class="side-nav" aria-label="Main sections">
+          <a href="#overview" class="nav-link is-active">Overview</a>
+          <a href="#path" class="nav-link">Path</a>
+          <a href="#volumes" class="nav-link">Volumes</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#timeline" class="nav-link">Timeline</a>
+          <a href="#gates" class="nav-link">Skill Gates</a>
+          <a href="#placement" class="nav-link">Placement</a>
+        </nav>
+
+        <div class="sidebar-panel">
+          <span class="panel-label">Saved Progress</span>
+          <strong id="savedProgress">0%</strong>
+          <div class="mini-progress" aria-hidden="true">
+            <span id="savedProgressBar"></span>
+          </div>
+        </div>
+
+      </aside>
+
+      <main class="page">
+        <section id="overview" class="overview-section section-band">
+          <div class="overview-copy">
+            <p class="eyebrow">2027 graduate roadmap</p>
+            <h1>Backend first. Product next. AI with real engineering depth.</h1>
+            <p class="lead">
+              A staged curriculum for moving from Stage 0 to product-company employability, then
+              into AI product and agentic systems work.
+            </p>
+
+            <div class="domain-card">
+              <span class="domain-label">Chosen Domain</span>
+              <strong>Backend / Product Engineering</strong>
+              <span>Growth path: AI Product Engineering and AI Systems Engineering.</span>
+            </div>
+          </div>
+
+          <div class="visual-panel" aria-label="Roadmap visual summary">
+            <img src="assets/roadmap-map.svg" alt="Roadmap from foundations to AI systems" />
+          </div>
+        </section>
+
+        <section class="metrics-grid" aria-label="Curriculum metrics">
+          <article class="metric-card">
+            <span>Volumes</span>
+            <strong id="volumeCount">8</strong>
+            <small>Full curriculum blocks</small>
+          </article>
+          <article class="metric-card">
+            <span>Stages</span>
+            <strong>9</strong>
+            <small>Career architecture</small>
+          </article>
+          <article class="metric-card">
+            <span>Projects</span>
+            <strong id="projectCount">0</strong>
+            <small>Portfolio ladder</small>
+          </article>
+          <article class="metric-card">
+            <span>Timeline</span>
+            <strong>18</strong>
+            <small>Monthly milestones</small>
+          </article>
+        </section>
+
+        <section id="path" class="section-band">
+          <div class="section-heading">
+            <p class="eyebrow">Career architecture</p>
+            <h2>Stage Path</h2>
+            <p>Move only after passing the skill gates. The order matters more than the hype.</p>
+          </div>
+          <div id="stageTrack" class="stage-track"></div>
+        </section>
+
+        <section class="section-band priority-section">
+          <div class="section-heading">
+            <p class="eyebrow">Learning sequence</p>
+            <h2>Master Priority Order</h2>
+            <p>The exact topic order to follow from Stage 0 to AI product engineering.</p>
+          </div>
+          <div id="priorityGrid" class="priority-grid"></div>
+        </section>
+
+        <section id="volumes" class="section-band">
+          <div class="section-heading with-toolbar">
+            <div>
+              <p class="eyebrow">Syllabus</p>
+              <h2>Curriculum Volumes</h2>
+              <p>Each volume includes outcomes, exact subtopics, projects, and exit gates.</p>
+            </div>
+            <div class="volume-toolbar">
+              <div class="filter-tabs" role="tablist" aria-label="Volume filter">
+                <button class="filter-tab is-selected" type="button" data-filter="all">All</button>
+                <button class="filter-tab" type="button" data-filter="foundation">Foundation</button>
+                <button class="filter-tab" type="button" data-filter="engineering">Engineering</button>
+                <button class="filter-tab" type="button" data-filter="ai">AI</button>
+                <button class="filter-tab" type="button" data-filter="career">Career</button>
+              </div>
+              <div class="topbar-actions volume-actions" role="group" aria-label="Volume actions">
+                <button class="text-button" id="resetProgress" type="button">Reset</button>
+              </div>
+            </div>
+          </div>
+          <div id="volumeList" class="volume-list"></div>
+        </section>
+
+        <section id="projects" class="section-band">
+          <div class="section-heading">
+            <p class="eyebrow">Portfolio</p>
+            <h2>Project Ladder</h2>
+            <p>Build small, then production-grade, then product-grade, then AI-grade. Each project now has skills, requirements, and done criteria.</p>
+          </div>
+          <div id="projectLadder" class="project-ladder"></div>
+        </section>
+
+        <section id="timeline" class="section-band">
+          <div class="section-heading">
+            <p class="eyebrow">Execution</p>
+            <h2>18-Month Timeline</h2>
+            <p>Use this as a progress map. Adjust speed, but protect the sequence.</p>
+          </div>
+          <div id="timelineList" class="timeline-list"></div>
+        </section>
+
+        <section id="gates" class="section-band">
+          <div class="section-heading">
+            <p class="eyebrow">Quality control</p>
+            <h2>Skill Gates</h2>
+            <p>These gates prevent jumping into advanced topics before the foundation is real.</p>
+          </div>
+          <div id="gateGrid" class="gate-grid"></div>
+        </section>
+
+        <section id="placement" class="section-band placement-section">
+          <div class="section-heading">
+            <p class="eyebrow">Career system</p>
+            <h2>Placement Readiness</h2>
+            <p>Turn skills into interviews, offers, and high-quality project conversations.</p>
+          </div>
+          <div id="placementGrid" class="placement-grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <template id="checkItemTemplate">
+      <label class="check-item">
+        <input type="checkbox" />
+        <span></span>
+      </label>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
